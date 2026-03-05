@@ -1,15 +1,26 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
+# Built outputs
 /build
-/captures
+app/build
+
+# Gradle
+.gradle
+
+# Android Studio / IntelliJ IDEA
+*.iml
+.idea/
+local.properties
+
+# OS
+.DS_Store
+Thumbs.db
+
+# NDK / CMake
 .externalNativeBuild
 .cxx
-local.properties
+
+# Captures
+/captures
+
+# Project-specific
+PLAN.md
+AGENT.md

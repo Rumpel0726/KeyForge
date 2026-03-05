@@ -1,3 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">KeyForge</string>
+
+    <!-- Screen titles -->
+    <string name="title_detail">Запись</string>
+    <string name="title_add">Новая запись</string>
+    <string name="title_edit">Редактирование</string>
+    <string name="title_generator">Генератор паролей</string>
+
+    <!-- Field hints -->
+    <string name="hint_title">Название *</string>
+    <string name="hint_username">Логин *</string>
+    <string name="hint_password">Пароль *</string>
+    <string name="hint_url">URL (необязательно)</string>
+    <string name="hint_note">Заметка (необязательно)</string>
+
+    <!-- Labels -->
+    <string name="label_password">Пароль</string>
+    <string name="label_length">Длина пароля</string>
+
+    <!-- Generator options -->
+    <string name="lowercase">Строчные буквы (a–z)</string>
+    <string name="uppercase">Прописные буквы (A–Z)</string>
+    <string name="digits">Цифры (0–9)</string>
+    <string name="special">Спецсимволы (!@#$…)</string>
+    <string name="regenerate">Обновить</string>
+    <string name="use_password">Использовать</string>
+
+    <!-- Buttons -->
+    <string name="save">Сохранить</string>
+    <string name="edit">Редактировать</string>
+    <string name="delete">Удалить</string>
+    <string name="cancel">Отмена</string>
+    <string name="generate">Генерировать</string>
+    <string name="copy_password">Копировать пароль</string>
+    <string name="add_entry">Добавить запись</string>
+    <string name="toggle_password">Показать/скрыть пароль</string>
+
+    <!-- Messages -->
+    <string name="empty_list">Нет сохранённых паролей</string>
+    <string name="copied_to_clipboard">Пароль скопирован</string>
+    <string name="error_no_charset">Выберите хотя бы один набор символов</string>
+    <string name="delete_confirm_title">Удалить запись?</string>
+    <string name="delete_confirm_message">Это действие необратимо.</string>
 </resources>
